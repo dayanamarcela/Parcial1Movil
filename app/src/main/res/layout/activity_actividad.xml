@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <Button
+        android:id="@+id/a_agregar"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/icono"
+        />
+
+    <ListView
+        android:id="@+id/a_lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Confirmar"
+            android:id="@+id/btnconfirmarActividad"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btncancelarActividades"
+            android:text="Cancelar"/>
+
+    </LinearLayout>
+
+</LinearLayout>
